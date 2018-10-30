@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyVetApp</string>
+    <string name="btnOwner_name">Pet Owner</string>
+    <string name="btnVet_name">Vet Center</string>
+    <string name="google_maps_API_key">AIzaSyANhRXbtHECWpGEgSm6hE68gfsk4vMJkEI</string>
+    <string name="title_activity_login_in">Sign in</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_clinic_name">Vet Center Name</string>
+    <string name="action_sign_in">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="title_activity_display">DisplayActivity</string>
+</resources>

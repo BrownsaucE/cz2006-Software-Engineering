@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dog"
+    tools:context=".AppointmentInfoActivity">
+
+    <Button
+        android:id="@+id/makeAppoint"
+        android:layout_width="185dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:text="Make Appointment" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pet"
+        android:layout_alignStart="@+id/name"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date"
+        android:layout_alignStart="@+id/contact"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/makeAppoint"
+        android:layout_alignStart="@+id/time"
+        android:layout_marginBottom="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:ems="10"
+        android:hint="notes to vet"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/time"
+        android:layout_alignStart="@+id/time"
+        android:layout_marginBottom="15dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/pet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/notes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:ems="10"
+        android:hint="pet type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:ems="10"
+        android:hint="Contact no."
+        android:inputType="phone" />
+</RelativeLayout>
